@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Nav from './Nav';
 // import fossil from '../images/fossil.jpg'
 // import PortfolioButton from './Buttons/PortfolioButton';
 // import ResumeButton from './Buttons/ResumeButton';
 
-import github from '../images/github.svg';
-import medium from '../images/medium.png';
-import linkedin from '../images/linkedin.png';
-import downarrow from '../images/down2.png';
-import profilephoto from '../images/profilephoto.jpg';
+// import github from '../images/github.svg';
+// import medium from '../images/medium.png';
+// import linkedin from '../images/linkedin.png';
+// import downarrow from '../images/down2.png';
+// import profilephoto from '../images/profilephoto.jpg';
 
 // className='bgimg-1B'
 class Home extends Component {
