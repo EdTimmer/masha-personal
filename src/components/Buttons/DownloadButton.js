@@ -6,7 +6,7 @@ import pdf from '../../Ed_Timmer_Resume.pdf';
 
 const styles = theme => ({
   button: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(1),
   },
   input: {
     display: 'none',
