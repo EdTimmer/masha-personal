@@ -69,15 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 <!-- For local development -->
-"scripts": {
-  "dev": "react-scripts start",
-  "start": "serve -s build",
-  "build": "react-scripts build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject",
-  "heroku-postbuild": "npm run build"
-}
-<!-- For deployment to Heroku -->
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
@@ -85,4 +76,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+<!-- For deployment to Heroku -->
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build" 
   },
