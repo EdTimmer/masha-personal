@@ -302,7 +302,7 @@ h5 {
 }
 
 .about {
-  text-align: left;
+  /* text-align: left; */
   padding: 40px 20px 0 20px;
   margin-top: 3em;
   font-size: 1.2em;
@@ -311,6 +311,43 @@ h5 {
 .about-line {
   margin: 0 10em 1em 0;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.about-image {
+  height: 700px;
+}
+
+.about-description {
+  max-width: 800px;
+  margin-left: 40px;
+}
+
+.gis-image {
+  max-width: 600px;
+  
+}
+.gis-container {
+  display: flex;
+  justify-content: left;
+  /* padding-left: 30px;
+  text-align: center; */
+}
+
 
 /* CSS for autotype */
 

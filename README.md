@@ -66,3 +66,23 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+<!-- For local development -->
+"scripts": {
+  "dev": "react-scripts start",
+  "start": "serve -s build",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject",
+  "heroku-postbuild": "npm run build"
+}
+<!-- For deployment to Heroku -->
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },

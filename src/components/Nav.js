@@ -80,7 +80,7 @@ class Nav extends Component {
 
                         <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
 
-                        <Link to={`/portfolio`} style={{ color: this.state.portfolio, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectPortfolio} onMouseLeave={this.unselect}>PORTFOLIO</Link>
+                        {/* <Link to={`/portfolio`} style={{ color: this.state.portfolio, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectPortfolio} onMouseLeave={this.unselect}>PORTFOLIO</Link> */}
 
                         <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
 

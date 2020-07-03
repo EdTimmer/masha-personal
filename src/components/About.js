@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { Grid } from '@material-ui/core';
 import Nav from './Nav';
-import profilephoto from '../images/profilephoto.jpg';
-import github from '../images/github.svg';
-import medium from '../images/medium.png';
-import linkedin from '../images/linkedin.png';
+import ripley_cat from '../images/ripley_cat.jpg';
+import gis from '../images/GISLayers.png';
 
 class About extends Component {
   componentDidMount() {
@@ -15,38 +12,41 @@ class About extends Component {
       <div>
         <div className="bgimg-1">
           <div>
-            <Nav header={'ABOUT'} />
+            <Nav header={"ABOUT"} />
           </div>
 
-          <Grid container spacing={0} style={{ backgroundColor: 'white', padding: '0', height: '100%' }}>
-
-
-            <Grid item xs={2} />
-            <Grid item xs={2} className='about'>
-              <img src={profilephoto} style={{ height: '250px' }} alt="profileimage" />
-            </Grid>
-            <Grid item xs={8} className='about'>
-
-              <p className="about-line">I am a Brooklyn based full stack software engineer and a recent graduate of <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy</a> coding bootcamp.</p>  
-              
+          <div className="about-container">
+            <div className="about-image-container">
+              <img className="about-image" src={ripley_cat} alt="profileimage" />
+            </div>
+            <div className="about-description">
               <p className="about-line">
-              Prior to going into web development I was a pharma and biotech patent attorney.  But my passion for making things prompted me to learn to code and to pursue career in web development.</p>
-              
-              <p className="about-line">I can be reached by email at <b>edtimmer@gmail.com</b>.</p>
+                I am a warrant officer of{" "}
+                <a
+                  href="https://avp.fandom.com/wiki/USCSS_Nostromo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  USCSS Nostromo
+                </a>
+                , a commercial towing vehicle out of the Solomons.
+              </p>
 
-              <p className="about-line">You can also find me at LinkedIn, GitHub, and Medium:</p>
-              
-              <div style={{ paddingTop: '10px' }}>
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://www.linkedin.com/in/edtimmer" rel="noopener noreferrer" target="_blank"><img src={linkedin} width={50} /></a></span>
+              <p className="about-line">
+                I enjoy exploring new and far away places, love animals of every
+                kind, always ready to take on a new challenge. But my
+                true passion in life is geographic information system, also
+                known as GIS.
+              </p>
 
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://github.com/EdTimmer" rel="noopener noreferrer" target="_blank"><img src={github} width={50} /></a></span>
-
-                  <span style={{ padding: '0 30px 0 30px' }}><a href="https://medium.com/@edtimmer" rel="noopener noreferrer" target="_blank"><img src={medium} width={50} /></a></span>
+              <p className="about-line">
+                I can be reached by email at <b>mizzmasha@gmail.com</b>.
+              </p>
+              <div className="gis-container">
+                <img className="gis-image" src={gis} alt="gis" />
               </div>
-
-            </Grid>
-
-          </Grid>
+            </div>
+          </div>
         </div>
       </div>
     );
