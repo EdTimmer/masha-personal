@@ -40,6 +40,12 @@ html {
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 20%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
