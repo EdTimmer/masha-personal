@@ -16,7 +16,7 @@ const styles = (theme) => ({
 function ResumeButton(props) {
   const { classes } = props;
   return (
-    <span style={{ padding: '30px' }}>
+    <span style={{ padding: '3rem' }}>
       <Link to={"/resume"}>
         <Button variant="outlined" className={classes.button} style={{ borderColor: 'white' }}>
           <span className='portfolioButton'>RESUME</span>

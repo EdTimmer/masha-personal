@@ -16,7 +16,7 @@ const styles = theme => ({
 function DownloadButton(props) {
   const { classes } = props;
   return (
-    <div style={{ padding: '30px 0 10px 0' }}>
+    <div style={{ padding: '3rem 0 1rem 0' }}>
       <a href={pdf} rel="noopener noreferrer" target="_blank">
         <Button variant="outlined" className={classes.button}>
           <span className='downloadButton'>DOWNLOAD RESUME</span>

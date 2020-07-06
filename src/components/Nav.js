@@ -65,7 +65,7 @@ class Nav extends Component {
     }
     render() {
         return (
-            <Grid container spacing={0} justify="center" style={{ textDecoration: 'none', padding: '20px' }}>
+            <Grid container spacing={0} justify="center" style={{ textDecoration: 'none', padding: '2rem' }}>
                 <Grid item xs={6}>
                     {
                         this.props.header ? (
@@ -74,15 +74,15 @@ class Nav extends Component {
                     }
                 </Grid>
                 <Grid item xs={6} style={{ textAlign: 'right' }}>
-                    <div style={{ paddingTop: '10px' }}>
+                    <div style={{ paddingTop: '1rem' }}>
 
-                        <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
+                        <Link to={`/`} style={{ color: this.state.home, textDecoration: 'none', padding: '0 2rem 0 2rem' }} onMouseEnter={this.selectHome} onMouseLeave={this.unselect}>HOME</Link>
 
-                        <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
+                        <Link to={`/about`} style={{ color: this.state.about, textDecoration: 'none', padding: '0 2rem 0 2rem' }} onMouseEnter={this.selectAbout} onMouseLeave={this.unselect}>ABOUT</Link>
 
-                        {/* <Link to={`/portfolio`} style={{ color: this.state.portfolio, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectPortfolio} onMouseLeave={this.unselect}>PORTFOLIO</Link> */}
+                        {/* <Link to={`/portfolio`} style={{ color: this.state.portfolio, textDecoration: 'none', padding: '0 2rem 0 2rem' }} onMouseEnter={this.selectPortfolio} onMouseLeave={this.unselect}>PORTFOLIO</Link> */}
 
-                        <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 20px 0 20px' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
+                        <Link to={`/resume`} style={{ color: this.state.resume, textDecoration: 'none', padding: '0 2rem 0 2rem' }} onMouseEnter={this.selectResume} onMouseLeave={this.unselect}>RESUME</Link>
 
                     </div>
 

@@ -26,7 +26,7 @@ class Resume extends Component {
               <span className='resHeader'>Skills</span>
             </Grid>
             <Grid item xs={8}>
-              <Grid container spacing={0} style={{ paddingLeft: '10px' }}>
+              <Grid container spacing={0} style={{ paddingLeft: '1rem' }}>
                 <Grid item xs={3} className='resume'>
                   <span>
                     <span className='headerTwo'>Proficient</span>
@@ -83,7 +83,7 @@ class Resume extends Component {
             </Grid>
             <Grid item xs={8} className='resume'>
               <p className='jobCompany'>Fullstack Academy of Code<span className='jobLocation'>, New York, NY, 1/2018 - 6/2018</span></p>
-              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+              <p className='jobDescription postPadding' style={{ marginRight: "30rem" }}>
                 <a href="https://www.fullstackacademy.com" rel="noopener noreferrer" target="_blank">Fullstack Academy of Code</a> is a software engineering coding bootcamp with a rigorous admissions process. Through an advanced curriculum and project based structure, students learn full stack JavaScript while immersed in the latest web technologies such as Node.js, React, and SQL.
               </p>              
             </Grid>
@@ -156,19 +156,19 @@ class Resume extends Component {
 
               <span className='headerTwo'>juris doctor</span>
               <p className='jobCompany'>Cardozo School of Law<span className='jobLocation'>, New York, NY, 09/1997 - 06/2000</span></p>
-              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+              <p className='jobDescription postPadding' style={{ marginRight: "30rem" }}>
                 GPA: 3.02
               </p>
 
               <span className='headerTwo'>master of arts in biology</span>
               <p className='jobCompany'>Boston University<span className='jobLocation'>, Boston, MA, 09/1995 - 06/1997</span></p>
-              <p className='jobDescription postPadding' style={{ marginRight: "300px" }}>
+              <p className='jobDescription postPadding' style={{ marginRight: "30rem" }}>
                 GPA: 3.86
               </p>
 
               <span className='headerTwo'>bachelor of arts in biology</span>
               <p className='jobCompany'>New York University<span className='jobLocation'>, New York, NY, 09/1991 - 06/1995</span></p>
-              <p className='jobDescription' style={{ marginRight: "300px" }}>
+              <p className='jobDescription' style={{ marginRight: "30rem" }}>
                 GPA: 3.61
               </p>
             </Grid>

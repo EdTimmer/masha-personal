@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 1.5rem/1.8 "Lato", sans-serif;
   color: #777;
 }
 
@@ -21,19 +21,19 @@ h5 {
 
 .projectBoxInactive {
   box-sizing: content-box;
-  width: 300px;
-  height: 120px;
-  border: 3px solid grey;
-  padding: 15px;
+  width: 30rem;
+  height: 12rem;
+  border: .3rem solid grey;
+  padding: 1.5rem;
   background-color: white;
 }
 
 .projectBoxActive {
   box-sizing: content-box;
-  width: 300px;
-  height: 120px;
-  border: 3px solid white;
-  padding: 15px;
+  width: 30rem;
+  height: 12rem;
+  border: .3rem solid white;
+  padding: 1.5rem;
   background-color: black;
   /* color: white; */
 }
@@ -41,7 +41,7 @@ h5 {
 
 .header {
   font-family: Allura, cursive;
-  /* font-size: 80px; */
+  /* font-size: 8rem; */
   /* font-weight: bold; */
 }
 
@@ -60,7 +60,7 @@ h5 {
 .bgimg-1A {
   background-image: url("./images/abstract1.jpg");
   opacity: 0.6;
-  /* height: 900px; */
+  /* height: 90rem; */
   /* min-height: 100%; */
   height: 100vh;
   /* max-width: 100wh; */
@@ -68,7 +68,7 @@ h5 {
 
 .bgimg-1B {
   background-image: url("./images/fossil.jpg");
-  /* height: 900px; */
+  /* height: 90rem; */
   /* min-height: 100%; */
   height: 10.5vh;
   /* max-width: 100wh; */
@@ -76,7 +76,7 @@ h5 {
 
 .bgimg-1 {
   background-image: url("./images/map.jpg");
-  /* height: 900px; */
+  /* height: 90rem; */
   /* min-height: 100%; */
   /* height: 89.5vh; */
   height: 100vh;
@@ -85,12 +85,12 @@ h5 {
 
 .bgimg-2 {
   background-image: url("./images/dna1.jpg");
-  height: 400px;
+  height: 40rem;
 }
 
 .bgimg-3 {
   background-image: url("./images/dish.jpg");
-  min-height: 400px;
+  min-height: 40rem;
 }
 
 .caption {
@@ -141,99 +141,99 @@ h5 {
 .captionThree span.borderTwo {
   background-color: transparent;
   color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  padding: 1.8rem;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 .caption span.border {
   background-color: #111;
   color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  padding: 1.8rem;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 
 .captionTwo span.borderTwo {
   background-color: transparent;
   color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  padding: 1.8rem;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 
 .caption span.borderTwo {
   background-color: #111;
   color: #fff;
-  padding: 10px 40px 10px 40px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  padding: 1rem 4rem 1rem 4rem;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
 }
 
 .portfolioPadding {
-  padding: 10px 0 10px 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .downloadButton {
   /* color: #fff; */
-  letter-spacing: 1px;
-  font-size: 20px;
-  /* padding: 0 0 0 20px;   */
+  letter-spacing: .1rem;
+  font-size: 2rem;
+  /* padding: 0 0 0 2rem;   */
   color: black
 }
 
 .portfolioButton {
   /* color: #fff; */
-  letter-spacing: 1px;
-  font-size: 15px;
+  letter-spacing: .1rem;
+  font-size: 1.5rem;
   padding: 0;  
   color: white;
   border-color: white;
   margin: 0;
-  width: 90px;
+  width: 9rem;
 }
 .sectionHeader {
   color: #fff;
-  letter-spacing: 10px;
-  font-size: 25px;
-  padding: 0 0 0 20px;  
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+  padding: 0 0 0 2rem;  
 }
 
 .headerTwo {
-  letter-spacing: 1px;
+  letter-spacing: .1rem;
   text-transform: uppercase;
-  font: 13px "Lato", sans-serif;
+  font: 1.3rem "Lato", sans-serif;
   font-weight: bold;
   color: black;
   padding-bottom: 0;
 }
 
 .postPadding {
-  padding-bottom: 15px;
+  padding-bottom: 1.5rem;
 }
 
 .list {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 2rem;
   margin-top: 0;
   color: rgb(61, 61, 61);
 }
 
 .jobCompany {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: black;
   padding-top: 0;
 }
 
 .jobLocation {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: rgb(61, 61, 61);
-  padding-top: 5px;
+  padding-top: .5rem;
 }
 
 .bar {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: rgb(61, 61, 61);
 }
 
@@ -244,24 +244,24 @@ h5 {
 }
 
 .aboutText {
-  /* letter-spacing: 1px; */
+  /* letter-spacing: .1rem; */
   /* text-transform: uppercase; */
-  /* font: 20px "Lato", sans-serif; */
-  font: 400 20px/1.8 "Lato", sans-serif;
+  /* font: 2rem "Lato", sans-serif; */
+  font: 400 2rem/1.8 "Lato", sans-serif;
   /* font-weight: bold; */
   color: black;
 }
 
 .resHeader {
-  letter-spacing: 1px;
+  letter-spacing: .1rem;
   /* text-transform: uppercase; */
-  font: 25px "Lato", sans-serif;
+  font: 2.5rem "Lato", sans-serif;
   color: rgb(61, 61, 61);
 }
 
 .resume {
   text-align: left;
-  padding: 20px;
+  padding: 2rem;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -278,21 +278,21 @@ h5 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 .4rem;
 }
 
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 1rem;
   /* flex: 50%;
-  padding: 0 4px; */
+  padding: 0 .4rem; */
 }
 
 .column img {
-  margin-top: 12px;
+  margin-top: 1.2rem;
   /* vertical-align: middle; */
-  /* width: 400px; */
+  /* width: 40rem; */
 }
 
 .row:after {
@@ -303,14 +303,14 @@ h5 {
 
 .about {
   /* text-align: left; */
-  padding: 40px 20px 0 20px;
-  margin-top: 3em;
-  font-size: 1.2em;
+  padding: 4rem 2rem 0 2rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
 }
 
 .about-line {
-  margin: 0 10em 1em 0;
-  font-size: 20px;
+  margin: 0 1rem 1rem 0;
+  font-size: 2rem;
 }
 
 .about-container {
@@ -320,32 +320,44 @@ h5 {
   justify-content: center;
   background-color: white;
   height: 100%;
-  padding-top: 40px;
+  padding-top: 4rem;
 }
 
 .about-image-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 550px) {
+  .about-container {
+    padding: auto 0;
+    margin: auto 0;
+  }
 }
 
 .about-image {
-  height: 700px;
+  height: 70rem;
 }
 
 .about-description {
-  max-width: 800px;
-  margin-left: 40px;
+  max-width: 80rem;
+  margin-left: 4rem;
+}
+@media (max-width: 550px) {
+  .about-description {
+    margin: 0 3rem;
+  }
+}
+.gis-image {
+  max-width: 60rem;
+  margin: 0 auto;  
 }
 
-.gis-image {
-  max-width: 600px;
-  
-}
 .gis-container {
   display: flex;
-  justify-content: left;
-  /* padding-left: 30px;
+  justify-content: left;  
+  /* padding-left: 3rem;
   text-align: center; */
 }
 
@@ -376,12 +388,12 @@ h5 {
 /* Scroll Bar */
 
 /* body::-webkit-scrollbar {
-  width: 0.7em;
+  width: 0.7rem;
   background: transparent;
  }
  body::-webkit-scrollbar-thumb {
   background: grey;
-  height:30px;
+  height:3rem;
  }
  
  body::-webkit-scrollbar-track-piece
